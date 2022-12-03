@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{   
+    long double  s=0,p;
+    int n=19;
+    for(long double i=1;n>i;i++){
+        p=pow(5,i);
+        s=s+(1/p);
+        
+    }
+    
+    printf("%Lf\n",s);
+   
+   
+    return 0;
+}
