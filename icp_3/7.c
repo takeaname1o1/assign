@@ -1,7 +1,8 @@
 #include <stdio.h>
 // factorial number
 int main()
-{    int n=5,f=1;
+{    int n,f=1;
+scanf("%d",&n);
     for(int i=1;n>=i;i++){
        f=f*i;
     }

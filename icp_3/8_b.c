@@ -5,9 +5,10 @@
 int main()
 {   
     long double  s=0,p;
-    int n=19;
+    int n=19,x;
+    scanf("%d %d ", &n , &x);
     for(long double i=1;n>i;i++){
-        p=pow(5,i);
+        p=pow(x,i);
         // taking x = 5
         s=s+(1/p);
         

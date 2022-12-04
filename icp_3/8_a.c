@@ -3,7 +3,7 @@
 int main()
 {   
     long double  s=0;
-    long double n=9999;
+    long double n=999999999999999999;
     // n is number of terms
     for(long double i=1;n>i;i++){
         s=s+(1/i);

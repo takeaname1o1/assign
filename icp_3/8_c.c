@@ -4,7 +4,8 @@
 int main()
 {   
     long double  s=0,p;
-    int n=19;
+    int n;
+    scanf("%d",&n)
     for(long double i=1;n>i;i++){
         p=pow(2,i);
         s=s+(1/p);
