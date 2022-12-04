@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// factorial number
 int main()
 {    int n=5,f=1;
     for(int i=1;n>=i;i++){

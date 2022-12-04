@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//sum of 1/2(power n)
 int main()
 {   
     long double  s=0,p;
