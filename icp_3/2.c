@@ -5,9 +5,9 @@ main ()
 {
 
 
-  int n;
-  scanf ("%d", &n);
-  n++;
+  int n=5;
+  
+  
   
   for (int i = 1; n > i; i++)
     {
